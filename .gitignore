@@ -1,0 +1,5 @@
+node_modules
+api/node_modules
+shop/node_modules
+api/dist
+shop/.next

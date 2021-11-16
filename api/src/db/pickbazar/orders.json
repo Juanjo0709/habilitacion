@@ -1,0 +1,628 @@
+[
+    {
+        "id": 21,
+        "tracking_number": "KN72GQqD4jJ0",
+        "customer_id": 2,
+        "customer_contact": "19365141641631",
+        "status": {
+          "id": 1,
+          "name": "Orden recibida",
+          "serial": 1,
+          "color": "#23b848",
+          "created_at": "2021-03-08T21:33:52.000000Z",
+          "updated_at": "2021-03-08T21:34:04.000000Z"
+        },
+        "amount": 21.6,
+        "sales_tax": 0.432,
+        "paid_total": 72.032,
+        "total": 72.032,
+        "coupon_id": null,
+        "parent_id": null,
+        "shop_id": null,
+        "discount": 0,
+        "payment_id": null,
+        "payment_gateway": "cod",
+        "shipping_address": {
+          "zip": "170003",
+          "city": "Manizales",
+          "state": "Caldas",
+          "country": "Colombia",
+          "street_address": "Carrera 33a #100a-09"
+        },
+        "billing_address": {
+            "zip": "170003",
+            "city": "Manizales",
+            "state": "Caldas",
+            "country": "Colombia",
+            "street_address": "Carrera 33a #100a-09"
+        },
+        "logistics_provider": null,
+        "delivery_fee": 50,
+        "delivery_time": "11.00 AM - 2.00 PM",
+        "deleted_at": null,
+        "created_at": "2021-08-26T11:24:26.000000Z",
+        "updated_at": "2021-08-26T11:24:26.000000Z",
+        "customer": {
+          "id": 2,
+          "name": "Customer",
+          "email": "customer@demo.com",
+          "email_verified_at": null,
+          "created_at": "2021-08-18T10:30:29.000000Z",
+          "updated_at": "2021-08-18T13:17:53.000000Z",
+          "is_active": 1,
+          "shop_id": null
+        },
+        "products": [
+          {
+            "id": 101,
+            "name": "Eo Body Lotion",
+            "slug": "eo-body-lotion",
+            "description": "Bath gel is a specialized liquid product used for cleaning the body during baths. Not to be confused with liquid soaps, bath gels, in fact, do not contain saponified oil. Instead, it uses synthetic detergents derived from either petroleum or plant sources.",
+            "type_id": 3,
+            "price": 20,
+            "shop_id": 4,
+            "sale_price": 16,
+            "sku": "1115",
+            "quantity": 50,
+            "in_stock": 1,
+            "is_taxable": 0,
+            "shipping_class_id": null,
+            "status": "publish",
+            "product_type": "simple",
+            "unit": "2lb",
+            "height": null,
+            "width": null,
+            "length": null,
+            "image": {
+              "id": "102",
+              "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/102/eo_body_lotion.jpg",
+              "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/102/conversions/eo_body_lotion-thumbnail.jpg"
+            },
+            "gallery": [
+              {
+                "id": "590",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/589/Clementines-1.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/589/conversions/Clementines-1-thumbnail.jpg"
+              },
+              {
+                "id": "591",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/590/Clementines.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/590/conversions/Clementines-thumbnail.jpg"
+              },
+              {
+                "id": "592",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/591/Clementines-2.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/591/conversions/Clementines-2-thumbnail.jpg"
+              },
+              {
+                "id": "743",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/742/clementines_h74qrp.jpg",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/742/conversions/clementines_h74qrp-thumbnail.jpg"
+              }
+            ],
+            "deleted_at": null,
+            "created_at": "2021-03-08T10:45:18.000000Z",
+            "updated_at": "2021-06-27T03:56:42.000000Z",
+            "max_price": null,
+            "min_price": null,
+            "pivot": {
+              "order_id": 21,
+              "product_id": 6,
+              "order_quantity": "1",
+              "unit_price": 2.5,
+              "subtotal": 2.5,
+              "variation_option_id": null,
+              "created_at": "2021-08-26T11:24:26.000000Z",
+              "updated_at": "2021-08-26T11:24:26.000000Z"
+            },
+            "variation_options": []
+          },
+          {
+            "id": 98,
+            "name": "Attitude Bubble Bath",
+            "slug": "attitude-bubble-bath",
+            "description": "Bath gel is a specialized liquid product used for cleaning the body during baths. Not to be confused with liquid soaps, bath gels, in fact, do not contain saponified oil. Instead, it uses synthetic detergents derived from either petroleum or plant sources.",
+            "type_id": 3,
+            "price": 20,
+            "shop_id": 4,
+            "sale_price": 16,
+            "sku": "1108",
+            "quantity": 50,
+            "in_stock": 1,
+            "is_taxable": 0,
+            "shipping_class_id": null,
+            "status": "publish",
+            "product_type": "simple",
+            "unit": "2lb",
+            "height": null,
+            "width": null,
+            "length": null,
+            "image": {
+              "id": "99",
+              "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/99/attitude_night_bubble_bath.jpg",
+              "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/99/conversions/attitude_night_bubble_bath-thumbnail.jpg"
+            },
+            "gallery": [
+              {
+                "id": "599",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/598/Dates-1.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/598/conversions/Dates-1-thumbnail.jpg"
+              },
+              {
+                "id": "600",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/599/Dates-2.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/599/conversions/Dates-2-thumbnail.jpg"
+              },
+              {
+                "id": "601",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/600/Dates.png",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/600/conversions/Dates-thumbnail.jpg"
+              },
+              {
+                "id": "746",
+                "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/745/Dates_pq4oad.jpg",
+                "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/745/conversions/Dates_pq4oad-thumbnail.jpg"
+              }
+            ],
+            "deleted_at": null,
+            "created_at": "2021-03-08T10:50:41.000000Z",
+            "updated_at": "2021-06-27T03:56:42.000000Z",
+            "max_price": null,
+            "min_price": null,
+            "pivot": {
+              "order_id": 21,
+              "product_id": 9,
+              "order_quantity": "1",
+              "unit_price": 8,
+              "subtotal": 8,
+              "variation_option_id": null,
+              "created_at": "2021-08-26T11:24:26.000000Z",
+              "updated_at": "2021-08-26T11:24:26.000000Z"
+            },
+            "variation_options": []
+          }
+        ],
+        "children": [
+          {
+            "id": 22,
+            "tracking_number": "bVH8G97r6wSC",
+            "customer_id": 2,
+            "customer_contact": "19365141641631",
+            "status": {
+              "id": 1,
+              "name": "Order Received",
+              "serial": 1,
+              "color": "#23b848",
+              "created_at": "2021-03-08T21:33:52.000000Z",
+              "updated_at": "2021-03-08T21:34:04.000000Z"
+            },
+            "amount": 21.6,
+            "sales_tax": 0,
+            "paid_total": 21.6,
+            "total": 21.6,
+            "coupon_id": null,
+            "parent_id": 21,
+            "shop_id": 6,
+            "discount": 0,
+            "payment_id": null,
+            "payment_gateway": "cod",
+            "shipping_address": {
+              "zip": "40391",
+              "city": "Winchester",
+              "state": "KY",
+              "country": "United States",
+              "street_address": "2148  Straford Park"
+            },
+            "billing_address": {
+              "zip": "40391",
+              "city": "Winchester",
+              "state": "KY",
+              "country": "United States",
+              "street_address": "2148  Straford Park"
+            },
+            "logistics_provider": null,
+            "delivery_fee": 0,
+            "delivery_time": "11.00 AM - 2.00 PM",
+            "deleted_at": null,
+            "created_at": "2021-08-26T11:24:26.000000Z",
+            "updated_at": "2021-08-26T11:24:26.000000Z",
+            "customer": {
+              "id": 2,
+              "name": "Customer",
+              "email": "customer@demo.com",
+              "email_verified_at": null,
+              "created_at": "2021-08-18T10:30:29.000000Z",
+              "updated_at": "2021-08-18T13:17:53.000000Z",
+              "is_active": 1,
+              "shop_id": null
+            },
+            "products": [
+              {
+                "id": 6,
+                "name": "Clementines",
+                "slug": "clementines",
+                "description": "clementine is a tangor, a citrus fruit hybrid between a willowleaf mandarin orange and a sweet orange, named for its late 19th-century discoverer. The exterior is a deep orange colour with a smooth, glossy appearance.",
+                "type_id": 1,
+                "price": 3,
+                "shop_id": 6,
+                "sale_price": 2.5,
+                "sku": "6",
+                "quantity": 50,
+                "in_stock": 1,
+                "is_taxable": 0,
+                "shipping_class_id": null,
+                "status": "publish",
+                "product_type": "simple",
+                "unit": "1lb",
+                "height": null,
+                "width": null,
+                "length": null,
+                "image": {
+                  "id": "6",
+                  "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/6/clementines.jpg",
+                  "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/6/conversions/clementines-thumbnail.jpg"
+                },
+                "gallery": [
+                  {
+                    "id": "590",
+                    "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/589/Clementines-1.png",
+                    "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/589/conversions/Clementines-1-thumbnail.jpg"
+                  },
+                  {
+                    "id": "591",
+                    "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/590/Clementines.png",
+                    "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/590/conversions/Clementines-thumbnail.jpg"
+                  },
+                  {
+                    "id": "592",
+                    "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/591/Clementines-2.png",
+                    "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/591/conversions/Clementines-2-thumbnail.jpg"
+                  },
+                  {
+                    "id": "743",
+                    "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/742/clementines_h74qrp.jpg",
+                    "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/742/conversions/clementines_h74qrp-thumbnail.jpg"
+                  }
+                ],
+                "deleted_at": null,
+                "created_at": "2021-03-08T10:45:18.000000Z",
+                "updated_at": "2021-06-27T03:56:42.000000Z",
+                "max_price": null,
+                "min_price": null,
+                "pivot": {
+                  "order_id": 22,
+                  "product_id": 6,
+                  "order_quantity": "1",
+                  "unit_price": 2.5,
+                  "subtotal": 2.5,
+                  "variation_option_id": null,
+                  "created_at": "2021-08-26T11:24:26.000000Z",
+                  "updated_at": "2021-08-26T11:24:26.000000Z"
+                },
+                "variation_options": []
+              },
+              {
+                "id": 7,
+                "name": "Sweet Corn",
+                "slug": "sweet-corn",
+                "description": "Maize, also known as corn, is a cereal grain first domesticated by indigenous peoples in southern Mexico about 10,000 years ago. The leafy stalk of the plant produces pollen inflorescences and separate ovuliferous inflorescences called ears that yield kernels or seeds, which are fruits.",
+                "type_id": 1,
+                "price": 5,
+                "shop_id": 6,
+                "sale_price": 4,
+                "sku": "7",
+                "quantity": 50,
+                "in_stock": 1,
+                "is_taxable": 0,
+                "shipping_class_id": null,
+                "status": "publish",
+                "product_type": "simple",
+                "unit": "1lb",
+                "height": null,
+                "width": null,
+                "length": null,
+                "image": {
+                  "id": "7",
+                  "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/7/Corn.jpg",
+                  "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/7/conversions/Corn-thumbnail.jpg"
+                },
+                "gallery": [
+                  {
+                    "id": "593",
+                    "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/592/Sweet-Corn-1.png",
+                    "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/592/conversions/Sweet-Corn-1-thumbnail.jpg"
+                  },
+                  {
+                    "id": "594",
+                    "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/593/Sweet-Corn-2.png",
+                    "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/593/conversions/Sweet-Corn-2-thumbnail.jpg"
+                  },
+                  {
+                    "id": "595",
+                    "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/594/Sweet-Corn.png",
+                    "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/594/conversions/Sweet-Corn-thumbnail.jpg"
+                  },
+                  {
+                    "id": "744",
+                    "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/743/Corn_dlrtbv.jpg",
+                    "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/743/conversions/Corn_dlrtbv-thumbnail.jpg"
+                  }
+                ],
+                "deleted_at": null,
+                "created_at": "2021-03-08T10:48:20.000000Z",
+                "updated_at": "2021-06-27T03:56:42.000000Z",
+                "max_price": null,
+                "min_price": null,
+                "pivot": {
+                  "order_id": 22,
+                  "product_id": 7,
+                  "order_quantity": "1",
+                  "unit_price": 4,
+                  "subtotal": 4,
+                  "variation_option_id": null,
+                  "created_at": "2021-08-26T11:24:26.000000Z",
+                  "updated_at": "2021-08-26T11:24:26.000000Z"
+                },
+                "variation_options": []
+              },
+              {
+                "id": 1,
+                "name": "Apples",
+                "slug": "apples",
+                "description": "An apple is a sweet, edible fruit produced by an apple tree (Malus domestica). Apple trees are ... The skin of ripe apples is generally red, yellow, green, pink, or russetted, though many bi- or tri-colored cultivars may be found.",
+                "type_id": 1,
+                "price": 2,
+                "shop_id": 6,
+                "sale_price": 1.6,
+                "sku": "1",
+                "quantity": 18,
+                "in_stock": 1,
+                "is_taxable": 0,
+                "shipping_class_id": null,
+                "status": "publish",
+                "product_type": "simple",
+                "unit": "1lb",
+                "height": null,
+                "width": null,
+                "length": null,
+                "image": {
+                  "id": "1",
+                  "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1/Apples.jpg",
+                  "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/1/conversions/Apples-thumbnail.jpg"
+                },
+                "gallery": [
+                  {
+                    "id": "573",
+                    "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/572/apple-1.png",
+                    "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/572/conversions/apple-1-thumbnail.jpg"
+                  },
+                  {
+                    "id": "574",
+                    "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/573/apple-2.png",
+                    "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/573/conversions/apple-2-thumbnail.jpg"
+                  },
+                  {
+                    "id": "575",
+                    "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/574/apple.png",
+                    "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/574/conversions/apple-thumbnail.jpg"
+                  },
+                  {
+                    "id": "737",
+                    "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/736/apple-2.png",
+                    "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/736/conversions/apple-2-thumbnail.jpg"
+                  }
+                ],
+                "deleted_at": null,
+                "created_at": "2021-03-08T10:24:53.000000Z",
+                "updated_at": "2021-06-27T03:56:42.000000Z",
+                "max_price": null,
+                "min_price": null,
+                "pivot": {
+                  "order_id": 22,
+                  "product_id": 1,
+                  "order_quantity": "1",
+                  "unit_price": 1.6,
+                  "subtotal": 1.6,
+                  "variation_option_id": null,
+                  "created_at": "2021-08-26T11:24:26.000000Z",
+                  "updated_at": "2021-08-26T11:24:26.000000Z"
+                },
+                "variation_options": []
+              },
+              {
+                "id": 4,
+                "name": "Brussels Sprout",
+                "slug": "brussels-sprout",
+                "description": "The Brussels sprout is a member of the Gemmifera Group of cabbages, grown for its edible buds. The leaf vegetables are typically 1.5–4.0 cm in diameter and look like miniature cabbages. The Brussels sprout has long been popular in Brussels, Belgium, and may have gained its name there.",
+                "type_id": 1,
+                "price": 5,
+                "shop_id": 6,
+                "sale_price": 3,
+                "sku": "4",
+                "quantity": 17,
+                "in_stock": 1,
+                "is_taxable": 0,
+                "shipping_class_id": null,
+                "status": "publish",
+                "product_type": "simple",
+                "unit": "1lb",
+                "height": null,
+                "width": null,
+                "length": null,
+                "image": {
+                  "id": "4",
+                  "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/4/BrusselsSprouts.jpg",
+                  "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/4/conversions/BrusselsSprouts-thumbnail.jpg"
+                },
+                "gallery": [
+                  {
+                    "id": "582",
+                    "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/581/Brussels-Sprout-1.png",
+                    "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/581/conversions/Brussels-Sprout-1-thumbnail.jpg"
+                  },
+                  {
+                    "id": "583",
+                    "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/582/Brussels-Sprout-2.png",
+                    "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/582/conversions/Brussels-Sprout-2-thumbnail.jpg"
+                  },
+                  {
+                    "id": "584",
+                    "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/583/Brussels-Sprout.png",
+                    "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/583/conversions/Brussels-Sprout-thumbnail.jpg"
+                  },
+                  {
+                    "id": "741",
+                    "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/740/BrusselsSprouts_adwhet.jpg",
+                    "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/740/conversions/BrusselsSprouts_adwhet-thumbnail.jpg"
+                  }
+                ],
+                "deleted_at": null,
+                "created_at": "2021-03-08T10:42:32.000000Z",
+                "updated_at": "2021-06-27T03:56:42.000000Z",
+                "max_price": null,
+                "min_price": null,
+                "pivot": {
+                  "order_id": 22,
+                  "product_id": 4,
+                  "order_quantity": "1",
+                  "unit_price": 3,
+                  "subtotal": 3,
+                  "variation_option_id": null,
+                  "created_at": "2021-08-26T11:24:26.000000Z",
+                  "updated_at": "2021-08-26T11:24:26.000000Z"
+                },
+                "variation_options": []
+              },
+              {
+                "id": 8,
+                "name": "Cucumber",
+                "slug": "cucumber",
+                "description": "Cucumber is a widely cultivated plant in the gourd family, Cucurbitaceae. It is a creeping vine that bears cucumiform fruits that are used as vegetables. There are three main varieties of cucumber: slicing, pickling, and seedless. Within these varieties, several cultivars have been created.",
+                "type_id": 1,
+                "price": 2.5,
+                "shop_id": 6,
+                "sale_price": null,
+                "sku": "8",
+                "quantity": 25,
+                "in_stock": 1,
+                "is_taxable": 0,
+                "shipping_class_id": null,
+                "status": "publish",
+                "product_type": "simple",
+                "unit": "2.5lb",
+                "height": null,
+                "width": null,
+                "length": null,
+                "image": {
+                  "id": "8",
+                  "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/8/Cucumber.jpg",
+                  "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/8/conversions/Cucumber-thumbnail.jpg"
+                },
+                "gallery": [
+                  {
+                    "id": "596",
+                    "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/595/Cucumber-1.png",
+                    "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/595/conversions/Cucumber-1-thumbnail.jpg"
+                  },
+                  {
+                    "id": "597",
+                    "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/596/Cucumber-2.png",
+                    "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/596/conversions/Cucumber-2-thumbnail.jpg"
+                  },
+                  {
+                    "id": "598",
+                    "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/597/Cucumber.png",
+                    "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/597/conversions/Cucumber-thumbnail.jpg"
+                  },
+                  {
+                    "id": "745",
+                    "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/744/Cucumber_w6hlxr.jpg",
+                    "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/744/conversions/Cucumber_w6hlxr-thumbnail.jpg"
+                  }
+                ],
+                "deleted_at": null,
+                "created_at": "2021-03-08T10:49:18.000000Z",
+                "updated_at": "2021-06-27T03:56:42.000000Z",
+                "max_price": null,
+                "min_price": null,
+                "pivot": {
+                  "order_id": 22,
+                  "product_id": 8,
+                  "order_quantity": "1",
+                  "unit_price": 2.5,
+                  "subtotal": 2.5,
+                  "variation_option_id": null,
+                  "created_at": "2021-08-26T11:24:26.000000Z",
+                  "updated_at": "2021-08-26T11:24:26.000000Z"
+                },
+                "variation_options": []
+              },
+              {
+                "id": 9,
+                "name": "Dates",
+                "slug": "dates",
+                "description": "Phoenix dactylifera, commonly known as date or date palm, is a flowering plant species in the palm family, Arecaceae, cultivated for its edible sweet fruit.",
+                "type_id": 1,
+                "price": 10,
+                "shop_id": 6,
+                "sale_price": 8,
+                "sku": "9",
+                "quantity": 50,
+                "in_stock": 1,
+                "is_taxable": 0,
+                "shipping_class_id": null,
+                "status": "publish",
+                "product_type": "simple",
+                "unit": "1.5lb",
+                "height": null,
+                "width": null,
+                "length": null,
+                "image": {
+                  "id": "10",
+                  "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/10/Dates.jpg",
+                  "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/10/conversions/Dates-thumbnail.jpg"
+                },
+                "gallery": [
+                  {
+                    "id": "599",
+                    "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/598/Dates-1.png",
+                    "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/598/conversions/Dates-1-thumbnail.jpg"
+                  },
+                  {
+                    "id": "600",
+                    "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/599/Dates-2.png",
+                    "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/599/conversions/Dates-2-thumbnail.jpg"
+                  },
+                  {
+                    "id": "601",
+                    "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/600/Dates.png",
+                    "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/600/conversions/Dates-thumbnail.jpg"
+                  },
+                  {
+                    "id": "746",
+                    "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/745/Dates_pq4oad.jpg",
+                    "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/745/conversions/Dates_pq4oad-thumbnail.jpg"
+                  }
+                ],
+                "deleted_at": null,
+                "created_at": "2021-03-08T10:50:41.000000Z",
+                "updated_at": "2021-06-27T03:56:42.000000Z",
+                "max_price": null,
+                "min_price": null,
+                "pivot": {
+                  "order_id": 22,
+                  "product_id": 9,
+                  "order_quantity": "1",
+                  "unit_price": 8,
+                  "subtotal": 8,
+                  "variation_option_id": null,
+                  "created_at": "2021-08-26T11:24:26.000000Z",
+                  "updated_at": "2021-08-26T11:24:26.000000Z"
+                },
+                "variation_options": []
+              }
+            ]
+          }
+        ]
+      }
+]
